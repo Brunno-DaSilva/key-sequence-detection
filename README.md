@@ -1,4 +1,6 @@
-# Key Sequence Detection
+# Key Sequence Detection :gift:
+
+#### Type the secret code to find an easter-egg
 
 #### Tools:
 
