@@ -118,41 +118,6 @@ body {
   cursor: pointer;
 }
 
-/***************************
-*     Corner Banner
-***************************/
-.corner-ribbon {
-  width: 11.5vw;
-  position: absolute;
-  top: 25px;
-  left: -49px;
-  font-size: 0.9rem;
-  text-align: center;
-  line-height: 50px;
-  letter-spacing: 1px;
-  color: var(--dark-font-color-title);
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-.corner-ribbon.sticky {
-  position: fixed;
-}
-.corner-ribbon.shadow {
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-.corner-ribbon.top-left {
-  top: 25px;
-  left: -50px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-.corner-ribbon.green {
-  background: var(--farting-yellow);
-}
-
-/***************************
-*     End-Corner Banner
-***************************/
 /*******************************
 *    END - Navigation Style    
 *******************************/
@@ -164,6 +129,10 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+}
+
+.hide {
+  display: none;
 }
 
 /*******************************
