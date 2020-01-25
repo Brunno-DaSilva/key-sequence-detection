@@ -79,45 +79,6 @@ body {
   align-items: center;
 }
 
-.title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-}
-
-.title h1,
-.title button {
-  margin: 1rem;
-}
-
-.title h1 {
-  font-family: "Shadows Into Light Two", cursive;
-  font-size: 4rem;
-  letter-spacing: 0.3rem;
-}
-
-.title button {
-  margin: 0;
-  height: 1.5rem;
-  width: 4rem;
-  padding: 0.75rem;
-  border: 1px solid var(--light-font-color-title);
-  background: transparent;
-  border-radius: 0.317rem;
-  color: var(--dark-font-color-title);
-  text-decoration: none;
-  font-size: 1rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  cursor: pointer;
-}
-
-.title button:hover {
-  cursor: pointer;
-}
-
 /*******************************
 *    END - Navigation Style    
 *******************************/
@@ -129,8 +90,38 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  widows: 100vw;
+  min-height: 80vh;
 }
 
+.container h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.container p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.8rem;
+  color: var(--dark-font-color-title);
+  letter-spacing: 2px;
+}
+
+.container span {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  color: var(--gray-neutral-color);
+  margin-left: 0.9rem;
+}
+
+.easter-egg,
+.sequence {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
 .hide {
   display: none;
 }
